@@ -7,6 +7,7 @@
 <body>
 	<?php
 		include "exercice1.php";
+		include "exercice2.php";
 	?>
 </body>
 </html>
