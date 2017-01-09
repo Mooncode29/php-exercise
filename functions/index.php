@@ -9,6 +9,7 @@
 		include "exercice1.php";
 		include "exercice2.php";
 		include "exercice3.php";
+		include "exercice4.php";
 	?>
 </body>
 </html>
