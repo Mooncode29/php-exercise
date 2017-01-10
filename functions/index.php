@@ -5,6 +5,7 @@
 	<title>Document</title>
 </head>
 <body>
+	<h1>Fonctions</h1>
 	<?php
 		include "exercice1.php";
 		include "exercice2.php";
