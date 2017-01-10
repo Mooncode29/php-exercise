@@ -6,11 +6,11 @@
 		}elseif($genre==="homme" && $age<18){
 			return "Vous êtes un"." ".$genre." "."et vous êtes mineur";
 		}elseif ($genre==="femme" && $age>18) {
-			return "Vous êtes une"." ".$genre."et vous êtes majeure \n";
+			return "Vous êtes une"." ".$genre." "."et vous êtes majeure \n";
 		}
 		else{
-			return "Vous êtes une".$genre." "."et vous êtes mineure";
+			return "Vous êtes une"." ".$genre." "."et vous êtes mineure";
 		}
 	}
-echo genderAndAge("homme", 20);
+echo genderAndAge("femme", 30);
 ?>
