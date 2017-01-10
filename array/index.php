@@ -8,6 +8,7 @@
 	<h1>Tableaux</h1>
 	<?php
 		include 'exercice1.php';
+		include 'exercice2.php';
 	?>
 
 </body>
