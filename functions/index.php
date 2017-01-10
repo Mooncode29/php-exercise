@@ -11,6 +11,7 @@
 		include "exercice3.php";
 		include "exercice4.php";
 		include "exercice5.php";
+		include"exercice6.php";
 	?>
 </body>
 </html>
