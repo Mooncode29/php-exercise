@@ -20,6 +20,11 @@
 	</div>
 	<button type="submit" name="envoyer">Envoyer</button>
 </form>
-	
+<!-- <div>
+	<ul>
+		<li><?= "nom :"." ".$_GET['name']." "."prénom :"." ".$_GET['prenom'] ?></li>
+		<li><?="civilité"." ".$_GET['genre'] ?></li>
+	</ul>
+</div> -->
 </body>
 </html>
