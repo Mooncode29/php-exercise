@@ -29,9 +29,22 @@
 	</form>
 <?php
 }else{
-	echo $_GET['name']." ".$_GET['prenom']." ".$_GET['genre'].$_GET['fichier'];
+	echo $_POST['genre']." ".$_POST['name']." ".$_POST['prenom']." ".$_FILES['fichier']['name'];
 }
-
 ?>
 </body>
 </html>
+
+
+
+
+
+<?php
+$infofichier = pathinfo($_FILES['fichier']['name']);
+$extension = $infofichier['extension'];
+
+if($extension === 'pdf'){
+	echo $extension;
+}else if(!empty($_FILES)){
+	echo 'extension de fichier non autorisée!';
+}?>
