@@ -1,7 +1,4 @@
-<?php
-setcookie('pseudo',$_POST['pseudo'], time () + 365*24*3600);
-setcookie('mdp', $_POST['mdp'], time() + 365*24*3600);
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +7,7 @@ setcookie('mdp', $_POST['mdp'], time() + 365*24*3600);
 </head>
 <body>
 
-<form action="" method="post">
+<form action="/exercice4/cookies.php" method="post">
 	<div>
 		<p><label for="login">Identifiant</label></p>
 		<p><input type="text" name="pseudo"></p>
